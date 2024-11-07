@@ -34,3 +34,10 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+      # Runs a test commands
+      - name: Run a test
+        run: |
+          echo "Hello World",
+          ifconfig,
+		  ping https://www.google.com.	
