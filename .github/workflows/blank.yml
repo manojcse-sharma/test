@@ -41,4 +41,4 @@ jobs:
 
        # Runs a test2 commands
       - name: Run a test2
-        run:  ping https://www.google.com.	
+        run:  curl -X GET https://api.example.com/resource
