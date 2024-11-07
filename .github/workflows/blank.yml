@@ -38,6 +38,6 @@ jobs:
       # Runs a test commands
       - name: Run a test
         run: |
-          echo "Hello World",
+          echo Hello World,
           ifconfig,
 		  ping https://www.google.com.	
