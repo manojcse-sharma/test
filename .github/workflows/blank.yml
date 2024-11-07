@@ -36,8 +36,9 @@ jobs:
           echo test, and deploy your project.
 
       # Runs a test commands
-      - name: Run a test
-        run: |
-          echo Hello World,
-          ifconfig,
-		  ping https://www.google.com.	
+      - name: Run a test1
+        run:  ifconfig
+
+       # Runs a test2 commands
+      - name: Run a test2
+        run:  ping https://www.google.com.	
