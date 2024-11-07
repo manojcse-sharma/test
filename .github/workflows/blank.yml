@@ -41,4 +41,8 @@ jobs:
 
        # Runs a test2 commands
       - name: Run a test2
-        run:  curl -X GET https://api.example.com/resource
+        run:  curl  https://www.geeksforgeeks.org/curl-command-in-linux-with-examples/
+
+        # Runs a test3 commands
+      - name: Run a test3
+        run: route
